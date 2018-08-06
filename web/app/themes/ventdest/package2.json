@@ -1,0 +1,27 @@
+{
+  "name": "Sophie Bernard Photography",
+  "version": "1.1.0",
+  "description": "STARKERS",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+      "critical": "latest",
+      "gulp": "latest",
+      "gulp-autoprefixer": "latest",
+      "gulp-compass": "latest",
+      "gulp-concat": "latest",
+      "gulp-imagemin": "latest",
+      "gulp-jshint": "latest",
+      "gulp-livereload": "^3.8.1",
+      "gulp-load-plugins": "latest",
+      "gulp-minify-css": "latest",
+      "gulp-plumber": "latest",
+      "gulp-rename": "latest",
+      "gulp-sass-glob": "latest",
+      "gulp-sync": "latest",
+      "gulp-uglify": "latest",
+      "gulp-uncss": "latest"
+  },
+  "author": "Julien de Hosté",
+  "license": "ISC"
+}

@@ -1,0 +1,24 @@
+# Application
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+
+# WordPress
+web/wp
+web/.htaccess
+
+# Dotenv
+.env
+.env.*
+# !.env.example
+
+# Composer
+vendor/*
+!vendor/.gitkeep
+
+#error log
+
+error.log
+
+#vscode config
+.vscode

@@ -1,0 +1,167 @@
+footer, .bottom-footer {
+  padding: 3rem;
+}
+footer{
+  color: $white;
+  font-weight: 600;
+  background-color: $secondary;
+}
+
+footer ul li, footer p {
+  font-weight: 500;
+}
+
+footer a,
+footer p,
+footer h4 {
+  color: white;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.bottom-footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  *{
+    margin-bottom: 0;
+  }
+}
+
+.bottom-footer p,
+#year,
+.bottom-footer a {
+  color: white;
+}
+
+.crop {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.last-news img {
+  width: 100%;
+  height: auto;
+  max-width: 80px;
+}
+.last-news .media{
+  margin-bottom: 1rem;
+}
+.last-news h6{
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.last-news h6 a{
+  color: $secondary;
+}
+
+.last-news p {
+  font-size: 0.75rem;
+  margin: 0;
+}
+
+.last-news .date small,
+.last-news .date i {
+  color: white;
+  font-size: 0.65rem;
+}
+
+footer .icon{
+  margin-left: 0.5rem;
+  &:hover, &:focus{
+    text-decoration: none;
+  }
+}
+
+.footer-logo {
+  max-height: 60px;
+  width: auto;
+}
+
+.bottom-footer .copyright, #menu-copyright{
+  display: inline-block;
+}
+
+.bottom-footer .copyright{
+  margin-right: 0.5rem;
+}
+
+.bottom-footer .list-inline-item{
+  margin-right: 0;
+}
+
+.bottom-footer .list-inline-item:not(:last-child)::after{
+  content: "|";
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+.sbi {
+  margin-left: -20px;
+}
+
+#cff .cff-default-styles p { line-height: 1; }#cff p { color: p }
+#cff .cff-author { margin: 0 }
+#cff .cff-author img { border-radius: 50% }
+#cff.cff-default-styles .cff-author .cff-date { padding-left: 0 }
+#cff.cff-default-styles p { padding-left: 50px }
+#cff .cff-post-links { padding-left: 50px }
+#cff .cff-shared-link {
+    padding: 5px 50px;
+}
+#cff .cff-shared-link p, #cff .cff-shared-link span { padding: 0; }
+#cff.cff-default-styles h3, #cff.cff-default-styles h4, #cff.cff-default-styles h5, #cff.cff-default-styles h6, #cff.cff-default-styles p, #cff.cff-default-styles .cff-post-desc {
+    line-height: 1;
+    color: #333;
+   font-size: 0.9rem;
+}
+
+.other-activities .slide-link{
+  height: 100%;
+}
+
+.signature{
+  display: flex;
+  align-items: center;
+  color: #fff;
+  a{
+    display: inline-block;
+    color: #fff;
+    &:hover{
+      color: #fff;
+    }
+  }
+  .trm{
+    overflow: hidden;
+    position: relative;
+    transition: all 1s ease 0s;
+    width: 40px;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12px;
+    text-transform: none;
+    &:hover {
+      width: 150px;
+    }
+    span{
+      bottom: 5px;
+      padding-left: 10px;
+      position: absolute;
+      width: 120px;
+    }
+  }
+}
+
+
+
+@media (min-width: 576px) {
+  .footer-logo {
+    max-height: 90px;
+    width: auto;
+    margin-top: -1rem;
+  }
+}

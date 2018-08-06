@@ -1,0 +1,33 @@
+{
+  "title": "n4_bowling",
+  "name": "n4_bowling",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/eTeamsys/n4_bowling_HTML#readme",
+  "keywords": [],
+  "author": "Vassili Ilouridzé",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eTeamsys/n4_bowling_HTML.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eTeamsys/n4_bowling_HTML/issues"
+  },
+  "dependencies": {
+    "bootstrap": "4.1.1",
+    "font-awesome": "4.7.0",
+    "jquery": "3.3.1",
+    "jquery.easing": "^1.4.1",
+    "magnific-popup": "^1.1.0"
+  },
+  "devDependencies": {
+    "browser-sync": "2.24.3",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "3.9.4",
+    "gulp-filter": "5.1.0",
+    "gulp-header": "2.0.5",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "4.0.1",
+    "gulp-uglify": "3.0.0"
+  }
+}
